@@ -61,3 +61,151 @@
     }
   }
 }
+
+
+@media (max-width: 768px) {
+  .role__choice-parent {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 6px;
+    font-family: "Andika", serif;
+    &-block {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 120px;
+      height: 80vh;   
+      &-blocks {
+        width: 100%;
+        background: linear-gradient(180deg, #08a0c2 0%, #152f34 100%);
+        height: auto;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+        padding-left: 30px;
+        justify-content: space-around;
+        h2 {
+          font-size: 55px;
+          font-weight: 700;
+          line-height: 55px;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+          color: #ffffff;
+          margin-bottom: 15px;
+        }
+        p {
+          font-family: Andika;
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 26.6px;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+          color: #ffffff;
+          max-width: 80%;
+        }
+        img{
+          height: 180px;
+          object-fit: cover;
+        }
+        &-item{
+          display: flex;
+          justify-content: space-between;
+          gap: 15px;
+          flex-direction: column-reverse;
+          align-items: self-end;
+          padding-right: 12px;
+          img{
+            height: 160px;
+            width: 150px;
+          }
+        }
+      }
+      .icon-cursor{
+          object-fit: cover;
+          width: 31px;
+          height: 31px;
+          margin-left: 84%;
+          margin-bottom: 23px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 360px) {
+  .role__choice-parent {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 6px;
+    font-family: "Andika", serif;
+    &-block {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 120px;
+      height: 80vh;   
+      &-blocks {
+        width: 100%;
+        background: linear-gradient(180deg, #08a0c2 0%, #152f34 100%);
+        height: auto;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+        padding-left: 30px;
+        justify-content: space-around;
+        h2 {
+          font-size: 50px;
+          font-weight: 700;
+          line-height: 50px;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+          color: #ffffff;
+          margin-bottom: 15px;
+        }
+        p {
+          font-family: Andika;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 24.4px;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+          color: #ffffff;
+          max-width: 80%;
+        }
+        img{
+          height: 180px;
+          object-fit: cover;
+        }
+        &-item{
+          display: flex;
+          justify-content: space-between;
+          gap: 15px;
+          flex-direction: column-reverse;
+          align-items: self-end;
+          padding-right: 12px;
+          img{
+            height: 160px;
+            width: 150px;
+          }
+        }
+      }
+      .icon-cursor{
+          object-fit: cover;
+          width: 27px;
+          height: 27px;
+          margin-left: 84%;
+          margin-bottom: 23px;
+      }
+    }
+  }
+}
