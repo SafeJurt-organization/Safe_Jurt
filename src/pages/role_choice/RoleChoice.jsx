@@ -3,8 +3,8 @@ import Section from "../../widgets/role_choice/Section";
 import './role_choice.scss'
 export default function Role_Choice() {
   return (
-    <div>
+    <main>
       <Section />
-    </div>
+    </main>
   );
 }

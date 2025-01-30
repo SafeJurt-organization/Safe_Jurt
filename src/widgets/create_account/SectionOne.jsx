@@ -51,7 +51,7 @@ export default function Section() {
               </p>
             </div>
             <Link style={{textDecoration: 'none'}} to={'/codeFamily'}  className="create-account__parent-block-item-child-columnLogin">
-              <button >
+              <button style={{marginTop: '20px'}}>
                 Зарегистрироваться
               </button>
             </Link>
