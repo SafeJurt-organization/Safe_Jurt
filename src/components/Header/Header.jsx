@@ -10,10 +10,12 @@ export default function Header() {
         <div>
             <header className={classes.header}>
                 <div className={classes.header__logo}>
-                    <img src={safeLogo} alt="Logo" />
+                <Link to="/">
+                     <img src={safeLogo} alt="Logo" />
+                   </Link>
                 </div>
                 <nav className={classes.header__nav}>
-                    <ul className={classes.menu}>
+                    <ul className={classes.menu}> 
                         <li className={classes.menu__item}>
                             <Link className={classes.menu__link} to="/service">Служебная помощь</Link>
                         </li>
@@ -25,6 +27,7 @@ export default function Header() {
                         </li>
                     </ul>
                 </nav>
+
                     <div className={classes.Jurt}>
                         <a href="https://web.telegram.org/a/#7209363206" target="_blank" rel="noopener noreferrer">
                             <svg width="109" height="60" viewBox="0 0 124 59" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -39,6 +42,7 @@ export default function Header() {
                     <div className={classes.header__profile}>
                         <img src={profile} alt="Profile" />
                     </div>
+
             </header>
         </div>
     );
