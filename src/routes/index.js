@@ -5,6 +5,7 @@ import Service from '../pages/ServiceAssistant/Service';
 import MapPage from '../pages/MapPage/MapPage'; 
 import Schedule from '../pages/Schedule/Schedule'; 
 import Footer from '../components/Footer/Footer'; 
+import  Home  from '../pages/Home/Home';
 
 export default function index() {
     return (
@@ -15,6 +16,9 @@ export default function index() {
                 <Route path="/map" element={<MapPage />} />
                 <Route path="/schedule" element={<Schedule />} />
                 <Route path="/Footer" element={<Footer />} />
+                <Route path="/" element={<Home />} />
+
+
             </Routes>
         </Router>
     );

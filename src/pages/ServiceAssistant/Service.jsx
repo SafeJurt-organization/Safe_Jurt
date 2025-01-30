@@ -18,7 +18,7 @@ export default function Service() {
                         {[
                             { number: '101', description: '- служба пожарной охраны' },
                             { number: '102', description: '- полиция' },
-                            { number: '103', description: '- служба скорой медицинской помощи' },
+                            { number: '103', description: '- служба скорой медицинской помощи   ' },
                         ].map((block, index) => (
                             <div className={classes.service__block} key={index} onClick={() => handleCall(block.number)}>
                                 <h2>{block.number}</h2>
