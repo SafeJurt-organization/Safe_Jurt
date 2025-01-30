@@ -46,6 +46,7 @@ const MapPage = () => {
                </div>
             ) : (
                <div className={classes.newSidebar}>
+                  <div className={classes.labels}>
                   <label>
                      <input type="radio" name="route" />
                      Откуда
@@ -54,6 +55,7 @@ const MapPage = () => {
                      <input type="radio" name="route" />
                      Куда?
                   </label>
+                  </div>
                   <button>Запросить Поменять Путь</button>
                   <button>Запросить График Дня</button>
                   <button className={classes.backButton} onClick={handleBack}>Назад</button>
