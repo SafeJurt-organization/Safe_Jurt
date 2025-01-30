@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function SectionOne() {
   return (
@@ -15,9 +16,9 @@ export default function SectionOne() {
               <label>Потвердите пароль</label>
               <input type="text" />
             </div>
-            <div className="code-family__parent-block-item-child-columnLogin">
-              <button>Подтвердить</button>
-            </div>
+            <Link to={'/'} style={{textDecoration: 'none'}} className="code-family__parent-block-item-child-columnLogin">
+              <button style={{marginTop: '35px'}}>Подтвердить</button>
+            </Link>
           </div>
         </div>
       </div>

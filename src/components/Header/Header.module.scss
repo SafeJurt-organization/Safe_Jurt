@@ -3,6 +3,7 @@
     font-family: "Montserrat", serif;
 }
 .header {
+    margin-right: 88px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,10 +49,8 @@
     cursor: pointer;
     object-fit: contain;
     transition: transform 0.3s;
-    margin-top: 18px;
 }
 h3{
-    background-color: #039baf;
     color: #ffffff;
     padding: 10px;
     border-radius: 10px;
@@ -90,7 +89,7 @@ li {
     }
 }
 
-}
+
 .Jurt{
     margin-right: 30px;
 }
