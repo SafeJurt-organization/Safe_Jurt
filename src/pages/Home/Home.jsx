@@ -37,8 +37,8 @@ const Home = () => {
     
       <section className="features">
         <div className="feature"><div className="horizontal"><h2>Cлужебная помощь</h2> <span>1</span></div> <p>Для экстренных случаев <br /> воспользуйтесь услугами <br /> служебной помощи</p></div>
-        <div className="feature"><div className="horizontal"><h2>Cлужебная помощь</h2> <span>2</span></div> <p>Для экстренных случаев <br /> воспользуйтесь услугами <br /> служебной помощи</p></div>
-        <div className="feature"><div className="horizontal"><h2>Cлужебная помощь</h2> <span>3</span></div> <p>Для экстренных случаев <br /> воспользуйтесь услугами <br /> служебной помощи</p></div>
+        <div className="feature"><div className="horizontal"><h2>Для семьи</h2> <span>2</span></div> <p>Можете пользоваться нашим <br /> приложением со всей семьей,для <br /> отслеживания геолокации итд</p></div>
+        <div className="feature"><div className="horizontal"><h2>График дня</h2> <span>3</span></div> <p>Можете пользоваться нашим <br /> приложением со всей семьей,для <br /> составления графика дня</p></div>
         
        
       </section>
