@@ -65,6 +65,8 @@ body {
   height: auto;
 }
 
+
+
 .features {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -94,12 +96,15 @@ span {
   align-items: center;
   justify-content: center;
   text-align: center;
+
 }
 
 .horizontal {
   display: flex;
   justify-content: space-between;
 }
+
+
 
 .safety {
   display: flex;
@@ -153,6 +158,8 @@ span {
   color: #333;
   margin: 5px 0;
 }
+
+
 
 .registration {
   display: flex;
@@ -216,6 +223,39 @@ span {
   height: auto;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 900px) {
   .safety {
     flex-direction: column;
@@ -237,21 +277,32 @@ span {
   }
 }
 
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
+    /* Размещение элементов в колонку */
+    /* Добавляем отступы */
   }
 
-  .hero-content {
-  }
+  .hero-content {}
 
   .hero-image {
     right: -20%;
   }
 
   .hero-image img {
-    width: 100%;
+    width: 50%;
     height: auto;
+
   }
 
   .hero-background img {
@@ -262,19 +313,6 @@ span {
 
   .features {
     margin-top: 0px;
-  }
-  .registration-image.right img,
-  .safety-image.right img {
-    display: none;
-  }
-  .safety-image.left img {
-    width: 100%;
-  }
-  .features {
-    flex-direction: column;
-  }
-  .feature {
-    width: 100%;
-    height: auto;
+
   }
 }
