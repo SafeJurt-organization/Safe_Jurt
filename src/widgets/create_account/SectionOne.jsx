@@ -9,7 +9,7 @@ export default function Section() {
           <h1>Создайть новый аккаунт.</h1>
           <div className="create-account__parent-block-item-childOne">
             <h4>Уже зарегистрированы?</h4>
-            <a href="#">Войдите</a>
+            <Link to={'/login'}>Войдите</Link>
           </div>
           <div className="create-account__parent-block-item-child">
             <div className="create-account__parent-block-item-child-column">
